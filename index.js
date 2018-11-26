@@ -28,11 +28,5 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  var fewerKittens = kittens.pop();
-  return fewerKittens;
-}
-
-function removeFirstKitten() {
-  var fewerKittens = kittens.shift();
-  return fewerKittens;
+  
 }
