@@ -21,3 +21,18 @@ function appendKitten(name) {
   var moreKittens = [...kittens, name];
   return moreKittens;
 }
+
+function prependKitten(name) {
+  var moreKittens = [name, ...kittens];
+  return moreKittens;
+}
+
+function removeLastKitten() {
+  var fewerKittens = kittens.pop();
+  return fewerKittens;
+}
+
+function removeFirstKitten() {
+  var fewerKittens = kittens.shift();
+  return fewerKittens;
+}
